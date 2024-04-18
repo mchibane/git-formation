@@ -15,18 +15,18 @@ function readNumbers(filename) {
   }
 }
 
-function calculateSum(numbers) {
+function getSum(numbers) {
   return numbers.reduce((acc, curr) => acc + curr, 0);
 }
 
 function calculateAverage(numbers) {
   if (numbers.length === 0) return 0;
-  return calculateSum(numbers) / numbers.length;
+  return getSum(numbers) / numbers.length;
 }
 
 function main() {
   const numbers = readNumbers("numbers.txt");
-  const total = calculateSum(numbers);
+  const total = getSum(numbers);
   const average = calculateAverage(numbers);
 
   console.log(`Sum: ${total}`);
