@@ -1,6 +1,6 @@
 # git-formation
 
-Let's learn how to use interactve rebases  
+Let's learn how to use interactive rebases  
 This exercise assumes you are comfortable with a regular rebase. If you aren't, go do the exercise on `exo/rebase-basic`.
 
 In this branch, there are 6 commits. One out of two commit is just fixing a typo in the previous commit.  
