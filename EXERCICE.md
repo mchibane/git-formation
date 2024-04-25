@@ -26,7 +26,7 @@ But `git rebase -i` really allows you to have an overview over a series of chang
 
 ## Bonus exercise
 
-Learn a cool hack by dong this:
+Learn a cool hack by doing this:
 
 - run `git commit --allow-empty --fixup HEAD`
 - run `git log`, notice how the commit you just created has `!fixup` as a prefix at the start of its message
