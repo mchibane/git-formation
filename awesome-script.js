@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-function function_that_reads_and_parses_numbers_from_a_text_file(filename) {
+function function_that_reads_and_parses_numbers_from_a_text_fil(filename) {
   try {
     const data = fs.readFileSync(filename, "utf8");
     const numbers = data
