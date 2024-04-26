@@ -22,7 +22,7 @@ function function_that_computes_the_sum_of_an_array_of_numbers(numbers) {
 function function_that_calculates_the_average_of_an_array_of_numbers(numbers) {
   if (numbers.length === 0) return 0;
   return (
-    function_that_calculates_the_sum_of_an_array_of_numbers(numbers) /
+    function_that_computes_the_sum_of_an_array_of_numbers(numbers) /
     numbers.length
   );
 }
