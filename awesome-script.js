@@ -30,8 +30,7 @@ function function_that_calculates_the_average_of_an_array_of_numbers(numbers) {
 function main() {
   const numbers =
     function_that_reads_and_parses_numbers_from_a_text_fil("numbers.txt");
-  const total =
-    function_that_calculates_the_sum_of_an_array_of_numbers(numbers);
+  const total = function_that_computes_the_sum_of_an_array_of_numbers(numbers);
   const average =
     function_that_calculates_the_average_of_an_array_of_numbers(numbers);
 
